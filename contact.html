@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>ข้อมูลส่วนตัว</legend>
+
+            <label for="firstname">ชื่อจริง:</label>
+            <input type="text" id="firstname" name="firstname" required />
+            &nbsp;&nbsp;
+
+            <label for="lastname">นามสกุล:</label>
+            <input type="text" id="lastname" name="lastname" required />
+            <br /><br />
+
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" required />
+            &nbsp;&nbsp;
+
+            <label for="birthdate">วันเกิด:</label>
+            <input type="date" id="birthdate" name="birthdate" required />
+            <br /><br />
+
+            <label for="country">ประเทศ:</label>
+            <select id="country" name="country">
+                <option value="">-- เลือกประเทศ --</option>
+                <option value="ไทย">ไทย</option>
+                <option value="สหรัฐอเมริกา">สหรัฐอเมริกา</option>
+                <option value="อังกฤษ">เกาหลีใต้</option>
+                <option value="รัสเซีย">รัสเซีย</option>
+            </select>
+            <br /><br />
+
+            <label for="message">ข้อมูลเพิ่มเติม:</label><br />
+                <textarea id="message" name="message" cols="50" rows="5"></textarea>
+            <br /><br />
+
+        </fieldset>
+
+        <button type="submit">ส่ง</button>
+        <button type="reset">ยกเลิก</button>
+  </form>
+</body>
+</html>
