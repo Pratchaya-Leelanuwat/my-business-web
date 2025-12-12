@@ -1,0 +1,42 @@
+/* For about.html page */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-detail h1 {
+    font-size: 28px;
+}
+
+.about-detail p {
+    font-size: 16px;
+}
+
+.member {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.member h2 {
+    font-size: 24px;
+}
+
+.member-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.member figure {
+    text-align: center;
+}
