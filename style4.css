@@ -1,0 +1,62 @@
+/* for contact.html */body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    font-size: 16px;
+}
+
+fieldset {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+legend {
+    font-size: 20px;
+    color:blue;
+}
+
+label {
+    font-size: 16px;
+    color:red;
+}
+
+input, select, textarea {
+    font-size: 16px;
+    padding: 5px;
+}
+
+button {
+    font-size: 16px;
+    padding: 6px 12px;
+    margin-top: 10px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    font-size: 18px;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
